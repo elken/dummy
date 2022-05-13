@@ -1,5 +1,7 @@
 class Test {
-    fun beforeDiff() {
-        println("No syntax here")
+    fun afterDiff() {
+        var a = listOf("one", "two", "three", "four")
+
+        println(a)
     }
 }
